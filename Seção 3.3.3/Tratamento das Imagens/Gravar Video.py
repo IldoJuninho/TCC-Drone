@@ -7,7 +7,7 @@ video = cv2.VideoCapture(URL)
    
 if (video.isOpened() == False):  
     print("Error reading video file") 
-frame_width = int(video.get(3)) 
+frame_width = int(video.get(3))  
 frame_height = int(video.get(4)) 
    
 size = (frame_width, frame_height) 
